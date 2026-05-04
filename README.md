@@ -116,27 +116,8 @@ Time-series simulation frames
 
 ## 🧪 Example Results
 
-### Landslide Simulation (Initial Frame)
+![image alt](https://github.com/zaithr/dclaw-landslide-simulation/blob/4de5d94360b38a3b3dcca471b3d7d811c9e3bacd/dclaw_4k_very_slow.gif)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zaithr/dclaw-landslide-simulation/987d803006452e7b55e7067727871d7736273357/_plots/frame0001fig0.png" 
-       alt="Initial landslide condition showing source area and terrain" 
-       width="700"/>
-</p>
-
-*Initial condition showing source area and terrain.*
-
----
-
-### Simulation (Time Evolution)
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/zaithr/dclaw-landslide-simulation/541350c5bd7df2b87dbddb687ad547e002983a1c/dclaw_4k_very_slow.gif" 
-       alt="Time evolution of debris-flow propagation using D-Claw" 
-       width="700"/>
-</p>
-
-*Time evolution of debris-flow propagation using D-Claw.*
 
 🛠️ Requirements
 
