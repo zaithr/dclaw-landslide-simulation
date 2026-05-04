@@ -67,10 +67,13 @@ python scripts/make_eta_and_tt3.py \
 surface_topo.tt3
 thickness.tt3
 eta_init.tt3
+
 Step 4: Run D-Claw
 make .data
 make .output
 make .plots
+
+
 🔬 Model Description
 
 D-Claw is a depth-averaged two-phase flow model designed for:
