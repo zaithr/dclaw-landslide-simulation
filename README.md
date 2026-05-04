@@ -113,13 +113,26 @@ Flow depth maps
 Velocity fields
 Terrain + flow overlays (hillshade)
 Time-series simulation frames
-🧪 Example Results
 
+## 🧪 Example Results
 
-https://github.com/zaithr/dclaw-landslide-simulation/blob/987d803006452e7b55e7067727871d7736273357/_plots/frame0001fig0.png
+### Landslide Simulation (Initial Frame)
 
-https://github.com/zaithr/dclaw-landslide-simulation/blob/987d803006452e7b55e7067727871d7736273357/dclaw_4k_very_slow.mp4
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zaithr/dclaw-landslide-simulation/987d803006452e7b55e7067727871d7736273357/_plots/frame0001fig0.png" width="700"/>
+</p>
 
+*Initial condition showing source area and terrain.*
+
+---
+
+### Simulation (Time Evolution)
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/zaithr/dclaw-landslide-simulation/541350c5bd7df2b87dbddb687ad547e002983a1c/dclaw_4k_very_slow.gif" width="700"/>
+</p>
+
+*Time evolution of debris-flow propagation using D-Claw.*
 
 🛠️ Requirements
 
