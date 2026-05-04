@@ -49,22 +49,20 @@ python scripts/resample_raster.py \
   --scale 8 \
   --method average
  
-
-https://github.com/user-attachments/assets/a3258d70-b6c5-41b4-9f54-379716eccfbd
-
 Step 2: Generate Thickness Raster
 python scripts/make_thickness.py \
   --dem data/dem_resampled.tif \
   --mask data/source.shp \
   --output data/thickness.tif \
   --thickness 18
+
 Step 3: Generate η and TT3 Inputs
 python scripts/make_eta_and_tt3.py \
   --dem data/dem_resampled.tif \
   --thickness data/thickness.tif \
   --outdir dclaw/
 
-Outputs:
+##Outputs:
 
 surface_topo.tt3
 thickness.tt3
@@ -117,12 +115,15 @@ Terrain + flow overlays (hillshade)
 Time-series simulation frames
 🧪 Example Results
 
-Add screenshots or GIFs here (highly recommended)
+
+https://github.com/zaithr/dclaw-landslide-simulation/blob/987d803006452e7b55e7067727871d7736273357/_plots/frame0001fig0.png
+
+https://github.com/zaithr/dclaw-landslide-simulation/blob/987d803006452e7b55e7067727871d7736273357/dclaw_4k_very_slow.mp4
+
 
 🛠️ Requirements
 
 Install dependencies:
-
 pip install -r requirements.txt
 requirements.txt
 rasterio
@@ -131,17 +132,21 @@ fiona
 shapely
 scipy
 matplotlib
+
+
 🚀 Getting Started
 Prepare DEM and shapefile
 Run preprocessing scripts
 Generate TT3 inputs
 Run D-Claw simulation
 Visualize results
+
 📌 Future Improvements
 Calibration using real landslide data
 Integration with rainfall datasets
 Coupling with slope stability models
 Automated pipeline execution
-👤 Author
 
-Your Name
+
+👤 Author
+Zaithr
