@@ -6,7 +6,7 @@
 
 A complete geospatial pipeline for simulating landslide and debris-flow dynamics using **D-Claw**, from DEM preprocessing to TT3 input generation and flow visualization.
 
----
+![image alt](https://github.com/zaithr/dclaw-landslide-simulation/blob/4de5d94360b38a3b3dcca471b3d7d811c9e3bacd/dclaw_4k_very_slow.gif)
 
 ## 🧠 Overview
 
@@ -113,11 +113,6 @@ Flow depth maps
 Velocity fields
 Terrain + flow overlays (hillshade)
 Time-series simulation frames
-
-## 🧪 Example Results
-
-![image alt](https://github.com/zaithr/dclaw-landslide-simulation/blob/4de5d94360b38a3b3dcca471b3d7d811c9e3bacd/dclaw_4k_very_slow.gif)
-
 
 🛠️ Requirements
 
